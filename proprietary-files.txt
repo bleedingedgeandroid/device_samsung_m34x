@@ -125,10 +125,6 @@ vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
 vendor/bin/hw/android.hardware.graphics.composer@2.4-service
 vendor/bin/hw/android.hardware.memtrack-service.exynos
--vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc
--vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc
--vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl.so
--vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl.so
 vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/hwcomposer.s5e8825.so
 vendor/lib/libdrm.so
@@ -166,7 +162,6 @@ vendor/lib64/android.hardware.gnss.visibility_control@1.0.so
 vendor/lib64/android.hardware.gnss@1.0.so
 vendor/lib64/android.hardware.gnss@1.1.so
 vendor/lib64/android.hardware.gnss@2.0.so
--vendor/lib64/android.hardware.gnss@2.1.so
 vendor/lib64/libwrappergps.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
 vendor/lib64/hw/vendor.samsung.hardware.gnss@2.1-impl.so
@@ -252,7 +247,6 @@ vendor/lib64/vendor.samsung.hardware.radio@2.2.so
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal
 vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc
--vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml
 -vendor/etc/init/init.sensorhub.rc
 vendor/etc/sensors/hals.conf
 vendor/lib/android.hardware.sensors@1.0.so
