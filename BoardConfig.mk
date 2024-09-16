@@ -90,10 +90,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     vendor/aosp/config/device_framework_matrix.xml
 
-# Vendor boot
-BOARD_VENDOR_RAMDISK_FRAGMENTS := dlkm
-BOARD_VENDOR_RAMDISK_FRAGMENT.dlkm.KERNEL_MODULE_DIRS := top
-
 # Fingerprint
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
 
