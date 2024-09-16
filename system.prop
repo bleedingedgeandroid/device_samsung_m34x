@@ -17,12 +17,6 @@ bluetooth.profile.pan.nap.enabled=true
 bluetooth.profile.pan.panu.enabled=true
 bluetooth.profile.pbap.server.enabled=true
 
-# DRM
-ro.netflix.bsp_rev=EXYNOS1280-34993-1
-
-# Wi-Fi
-ro.wifi.channels=
-
 # Miscellaneous
 com.samsung.speg.prelauncher.disable=true
 dalvik.vm.appimageformat=lz4
@@ -93,7 +87,6 @@ ro.build.version.sem=3401
 ro.build.version.sep=150100
 ro.config.dmverity=G
 ro.config.iccc_version=3.0
-ro.config.knox=v30
 ro.config.rm_preload_enabled=1
 ro.dalvik.vm.native.bridge=0
 ro.debug_level=0x494d
