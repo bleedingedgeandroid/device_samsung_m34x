@@ -15,7 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, device/samsung/m34x/device.mk)
 
 PRODUCT_DEVICE := m34x
-PRODUCT_NAME := lineage_m34x
+PRODUCT_NAME := aosp_m34x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M346B
 PRODUCT_MANUFACTURER := samsung

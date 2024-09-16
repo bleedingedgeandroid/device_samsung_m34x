@@ -5,9 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m34x.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_m34x-ap2a-user \
-    lineage_m34x-ap2a-userdebug \
-    lineage_m34x-ap2a-eng
+    $(LOCAL_DIR)/aosp_m34x.mk
