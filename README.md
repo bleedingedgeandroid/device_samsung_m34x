@@ -1,2 +1,9 @@
-# device_samsung_m34x
-Samsung M34 Device Tree
+# Android device tree for samsung SM-M346B (essi)
+
+```
+#
+# Copyright (C) 2024 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
