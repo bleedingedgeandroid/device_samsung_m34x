@@ -948,8 +948,6 @@ vendor/etc/ems.json
 vendor/etc/ems_parameter.json
 vendor/etc/epic.json
 vendor/etc/floating_feature.xml
-vendor/etc/fstab.ramplus
-vendor/etc/fstab.s5e8825
 vendor/etc/gps_debug.conf
 vendor/etc/hqm_device.xml
 vendor/etc/init.insmod.s5e8825.cfg
