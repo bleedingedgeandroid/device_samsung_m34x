@@ -90,10 +90,6 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.allocator@4.0-impl \
-    android.hardware.graphics.allocator@4.0-service \
-    android.hardware.graphics.composer@2.4-service \
-    android.hardware.graphics.mapper@4.0-impl \
     gralloc.default
 
 # DRM
@@ -107,11 +103,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd 
-
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.samsung
-
+    
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-service \
@@ -207,10 +199,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
 
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.exynos1280 
-
 # USB
 PRODUCT_PACKAGES += \
     android.hardware.usb-service.samsung
@@ -221,8 +209,6 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    WifiOverlay \
-    android.hardware.wifi@1.0-service \
     hostapd \
     wpa_supplicant
 
