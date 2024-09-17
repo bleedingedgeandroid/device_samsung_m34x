@@ -471,7 +471,6 @@ vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 # Misc
 vendor/bin/abox_log
 vendor/bin/add.pb
-vendor/bin/applypatch
 vendor/bin/argosd
 vendor/bin/boringssl_self_test32
 vendor/bin/boringssl_self_test64
