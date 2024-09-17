@@ -17,7 +17,7 @@ Local Manifest:
 
     <project path="device/samsung/m34x" name="bleedingedgeandroid/device_samsung_m34x" remote="hub" revision="udc" />
     <!--    <project path="vendor/samsung/m34x" name="bleedingedgeandroid/vendor_samsung_m34x" revision="udc"> -->
-    <!--    <project path="kernel/samsung/m34x" name="bleedingedgeandroid/kernel_samsung_m34x" revision="udc"> -->
+    <project path="kernel/samsung/m34x" name="bleedingedgeandroid/kernel_samsung_m34x" revision="udc">
 
     <project path="hardware/samsung" name="lineageos/android_hardware_samsung" remote="hub"/>
     <project path="device/samsung_slsi/sepolicy" name="lineageos/android_device_samsung_slsi_sepolicy" remote="hub"/>
