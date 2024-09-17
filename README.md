@@ -12,10 +12,10 @@ Local Manifest:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="hub" fetch="https://github.com/" revision="lineage-21.0"/>
+    <remote name="hub" fetch="https://github.com/" revision="lineage-21"/>
 
 
-    <project path="device/samsung/m34x" name="bleedingedgeandroid/device_samsung_m34x" revision="udc">
+    <project path="device/samsung/m34x" name="bleedingedgeandroid/device_samsung_m34x" remote="hub" revision="udc" />
     <!--    <project path="vendor/samsung/m34x" name="bleedingedgeandroid/vendor_samsung_m34x" revision="udc"> -->
     <!--    <project path="kernel/samsung/m34x" name="bleedingedgeandroid/kernel_samsung_m34x" revision="udc"> -->
 
